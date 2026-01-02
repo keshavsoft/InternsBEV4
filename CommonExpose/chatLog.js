@@ -1,3 +1,5 @@
+import { InsertFunc as InsertFuncFromFileWrite } from "./WsChat/toWsChatJson.js";
+
 const CommonChatLog = [];
 
 const ReadFunc = () => {
@@ -19,6 +21,13 @@ const RetrunInChatOnly = () => {
 };
 
 const InsertFunc = (inObjectToInsert) => {
+    CommonChatLog.push(inObjectToInsert);
+    InsertFuncFromFileWrite({ inData: inObjectToInsert });
+
+    return true;
+};
+
+const InsertFunc_2Jan2025 = (inObjectToInsert) => {
     CommonChatLog.push(inObjectToInsert);
 
     return true;

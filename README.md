@@ -166,3 +166,7 @@ image being served for mail sent
 ### 1.11.8
 
 - Doctor V6 modular perfect
+
+### 1.11.9
+
+- Chat log perfect

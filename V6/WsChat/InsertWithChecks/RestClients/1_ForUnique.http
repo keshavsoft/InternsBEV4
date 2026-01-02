@@ -1,0 +1,6 @@
+POST http://localhost:9328/V6/WsChat/InsertWithChecks/ForUnique
+Content-Type: application/json
+
+{
+  "InMessage": ""
+}

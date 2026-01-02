@@ -1,0 +1,23 @@
+{
+    "tableName": "WsChat",
+    "columns": [
+        {
+            "field": "InMessage",
+            "title": "InMessage",
+            "type": "text",
+            "isInput": true
+        }
+    ],
+    "data": [],
+    "Vertical": [],
+    "DataTableOptions": {
+        "Header": {
+            "autoFocus": "title"
+        }
+    },
+    "NonSecured": {
+        "SubRoutes": [
+            "InsertWithChecks"
+        ]
+    }
+}

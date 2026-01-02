@@ -1,0 +1,1 @@
+{"TableName":"WsChat","DataPath":"Data","Columns":["InMessage"],"ColumnsWithSchema":[{"field":"InMessage","title":"InMessage","type":"text","isInput":true}]}
