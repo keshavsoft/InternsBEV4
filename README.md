@@ -170,3 +170,7 @@ image being served for mail sent
 ### 1.11.9
 
 - Chat log perfect
+
+### 1.11.10
+
+- WsChat Ui secured
