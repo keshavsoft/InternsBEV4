@@ -174,3 +174,7 @@ image being served for mail sent
 ### 1.11.10
 
 - WsChat Ui secured
+
+### 1.11.11
+
+- WsChat Ui linked and old files delete

@@ -19,8 +19,6 @@ import { StartFunc as StartFuncFromMiddleware } from "./Token/MiddleWares/entryF
 import { router as routerFromUtility } from "./Utility/routes.js";
 import { router as routerFromSecret } from "./Secret/routes.js";
 import { router as routerFromUsers } from "./Users/routes.js";
-import { router as routerFromSV8 } from "./SV8/routes.js";
-import { router as routerFromSV9 } from "./SV9/routes.js";
 import { router as routerFromSV10 } from "./SV10/routes.js";
 import { router as routerFromV5 } from "./V5/routes.js";
 import { router as routerFromV6 } from "./V6/routes.js";
@@ -48,8 +46,6 @@ app.get('/AboutUs', (req, res) => {
 app.use("/Utility", routerFromUtility);
 app.use("/Secret", routerFromSecret);
 app.use("/Users", routerFromUsers);
-app.use("/SV8", StartFuncFromMiddleware, routerFromSV8);
-app.use("/SV9", StartFuncFromMiddleware, routerFromSV9);
 app.use("/SV10", StartFuncFromMiddleware, routerFromSV10);
 app.use("/V5", routerFromV5);
 app.use("/V6", routerFromV6);
