@@ -143,5 +143,17 @@
         "SubRoutes": [
             "InsertWithChecks"
         ]
+    },
+    "Secured": {
+        "SubRoutes": [
+            "Read",
+            "Insert",
+            "Delete",
+            "Image",
+            "Mail",
+            "InsertWithChecks",
+            "Sort",
+            "GroupBy"
+        ]
     }
 }

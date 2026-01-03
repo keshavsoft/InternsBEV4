@@ -1,5 +1,7 @@
 {
     "Tables": [
-        "WsChat"
+        "WsChat",
+        "StudentNames",
+        "UsersTable"
     ]
 }

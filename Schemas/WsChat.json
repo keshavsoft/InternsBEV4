@@ -2,8 +2,14 @@
     "tableName": "WsChat",
     "columns": [
         {
-            "field": "InMessage",
-            "title": "InMessage",
+            "field": "InOut",
+            "title": "InOut",
+            "type": "text",
+            "isInput": true
+        },
+        {
+            "field": "data",
+            "title": "data",
             "type": "text",
             "isInput": true
         }
@@ -18,6 +24,11 @@
     "NonSecured": {
         "SubRoutes": [
             "InsertWithChecks"
+        ]
+    },
+    "Secured": {
+        "SubRoutes": [
+            "Read"
         ]
     }
 }
